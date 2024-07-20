@@ -1,5 +1,7 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.controllers;
 
+import com.nileshprajapati.webservicedemo.models.Student;
+import com.nileshprajapati.webservicedemo.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

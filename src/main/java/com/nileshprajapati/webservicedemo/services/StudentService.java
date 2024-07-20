@@ -1,12 +1,11 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.services;
 
+import com.nileshprajapati.webservicedemo.models.Student;
+import com.nileshprajapati.webservicedemo.repositories.StudentRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.swing.text.html.Option;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
