@@ -1,4 +1,4 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.models;
 
 import jakarta.persistence.*;
 
